@@ -8,7 +8,8 @@ $ curl -u rhdmAdmin:jbos000 \
      -H "content-type: application/json" \
     "http://localhost:8080/kie-server/services/rest/server/containers/instances/loan-demo_1.0.0-SNAPSHOT"
 
-$ cat post.json
+post.json
+<pre>
 {
  "commands":[
     {"insert":{"object":{"com.myspace.loan_demo.Applicant":{
@@ -37,3 +38,4 @@ $ cat post.json
      },    {"fire-all-rules":{}}
  ]
 }
+</pre>
