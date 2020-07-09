@@ -3,10 +3,12 @@
 Decison Central で作成した loan-demo のサンプル
 
 REST アクセス例
+<pre>
 $ curl -u rhdmAdmin:jbos000 \
      -d @post.json  -X POST \
      -H "content-type: application/json" \
     "http://localhost:8080/kie-server/services/rest/server/containers/instances/loan-demo_1.0.0-SNAPSHOT"
+</pre>
 
 post.json
 <pre>
