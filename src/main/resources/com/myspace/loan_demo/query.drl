@@ -1,0 +1,12 @@
+package com.myspace.loan_demo;
+
+import com.myspace.loan_demo.Loan;
+
+query "All Loan"
+    loan: Loan()
+end
+
+query "Approved Loan"
+    loan: Loan(approval == true)
+end
+
